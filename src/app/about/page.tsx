@@ -24,7 +24,7 @@ export default function AboutPage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              HostDirect was founded with a single mission: to break the
+              VacayStack was founded with a single mission: to break the
               dependency on massive platforms and give hosts the tools they need
               to build independent, profitable global brands.
             </p>
@@ -104,7 +104,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-24">
             <h2 className="text-4xl md:text-7xl font-bold mb-8 tracking-tight">
-              The HostDirect <span className="text-accent">Philosophy.</span>
+              The VacayStack <span className="text-accent">Philosophy.</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               We're not just a software company; we're a movement to empower the

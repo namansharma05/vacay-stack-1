@@ -62,77 +62,6 @@ export default function HomePage() {
                 </Button>
               </Link>
             </div>
-
-            <div className="mt-24 relative mx-auto max-w-6xl">
-              <motion.div
-                initial={{ opacity: 0, y: 40, scale: 0.98 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                transition={{
-                  duration: 1,
-                  delay: 0.3,
-                  ease: [0.16, 1, 0.3, 1],
-                }}
-                className="rounded-2xl border border-white/40 bg-white/40 backdrop-blur-3xl overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] premium-shadow"
-              >
-                <div className="bg-white/50 p-3 border-b border-white/20 flex items-center gap-2">
-                  <div className="flex gap-2 ml-3">
-                    <div className="w-3 h-3 rounded-full bg-slate-200" />
-                    <div className="w-3 h-3 rounded-full bg-slate-200" />
-                    <div className="w-3 h-3 rounded-full bg-slate-200" />
-                  </div>
-                  <div className="mx-auto bg-white/80 rounded-lg px-6 py-1 text-[11px] font-medium text-slate-500 border border-slate-200 shadow-sm">
-                    your-rental-brand.com
-                  </div>
-                </div>
-                <div className="aspect-[16/9] bg-slate-50 flex items-center justify-center relative group">
-                  <div className="absolute inset-0 bg-gradient-to-tr from-accent/[0.05] to-transparent pointer-events-none" />
-                  <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-24 h-24 rounded-3xl bg-white shadow-xl flex items-center justify-center mb-6 border border-slate-100">
-                      <BarChart3 className="h-12 w-12 text-accent" />
-                    </div>
-                    <div className="h-2 w-32 bg-slate-200 rounded-full mb-2" />
-                    <div className="h-2 w-24 bg-slate-100 rounded-full" />
-                  </div>
-
-                  {/* Floating glass elements */}
-                  <motion.div
-                    animate={{ y: [0, -10, 0] }}
-                    transition={{
-                      duration: 4,
-                      repeat: Infinity,
-                      ease: "easeInOut",
-                    }}
-                    className="absolute top-1/4 left-1/4 p-6 glass rounded-2xl shadow-xl w-48 border border-white/50 z-20"
-                  >
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center">
-                        <Zap className="h-4 w-4 text-accent" />
-                      </div>
-                      <div className="h-2 w-16 bg-slate-200 rounded-full" />
-                    </div>
-                    <div className="h-4 w-full bg-slate-100 rounded mb-2" />
-                    <div className="h-4 w-2/3 bg-slate-100 rounded" />
-                  </motion.div>
-
-                  <motion.div
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{
-                      duration: 5,
-                      repeat: Infinity,
-                      ease: "easeInOut",
-                      delay: 0.5,
-                    }}
-                    className="absolute bottom-1/4 right-1/4 p-6 glass rounded-2xl shadow-xl w-56 border border-white/50 z-20"
-                  >
-                    <div className="h-2 w-24 bg-slate-200 rounded-full mb-4" />
-                    <div className="flex gap-2">
-                      <div className="flex-1 h-12 bg-accent/5 rounded-lg border border-accent/10" />
-                      <div className="flex-1 h-12 bg-slate-50 rounded-lg border border-slate-100" />
-                    </div>
-                  </motion.div>
-                </div>
-              </motion.div>
-            </div>
           </motion.div>
         </div>
       </section>
@@ -337,7 +266,7 @@ export default function HomePage() {
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground mb-16 max-w-2xl mx-auto leading-relaxed">
               Join the thousands of professional hosts who have reclaimed their
-              business independence with HostDirect.
+              business independence with VacayStack.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
               <Link href="/contact">

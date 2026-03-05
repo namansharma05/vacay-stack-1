@@ -61,7 +61,7 @@ export default function PortfolioPage() {
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
               Discover how professional hosts are reclaimimg their independence
-              and building premium global brands with HostDirect.
+              and building premium global brands with VacayStack.
             </p>
           </motion.div>
         </div>
@@ -239,7 +239,7 @@ export default function PortfolioPage() {
               <span className="text-accent">Our Next Success?</span>
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground mb-16 max-w-2xl mx-auto leading-relaxed">
-              Schedule a demo today and see how HostDirect can transform your
+              Schedule a demo today and see how VacayStack can transform your
               vacation rental business into a booking powerhouse.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8">

@@ -40,7 +40,7 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     title: "Email Us",
-                    value: "hello@hostdirect.com",
+                    value: "hello@vacaystack.com",
                   },
                   {
                     icon: MessageCircle,

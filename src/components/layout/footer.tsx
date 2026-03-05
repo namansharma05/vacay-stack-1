@@ -114,12 +114,12 @@ export function Footer() {
 
         <div className="mt-24 pt-10 border-t border-slate-200/60 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-sm font-medium text-slate-400 italic">
-            © {new Date().getFullYear()} HostDirect. All rights reserved. Built
+            © {new Date().getFullYear()} VacayStack. All rights reserved. Built
             for professional Hosts.
           </p>
           <div className="flex items-center gap-3 px-4 py-2 bg-white rounded-full border border-slate-200 shadow-sm text-sm font-semibold text-slate-600">
             <Mail className="h-4 w-4 text-accent" />
-            <span>hello@hostdirect.com</span>
+            <span>hello@vacaystack.com</span>
           </div>
         </div>
       </div>

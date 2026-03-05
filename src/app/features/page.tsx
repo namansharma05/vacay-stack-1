@@ -172,7 +172,7 @@ export default function FeaturesPage() {
                 <span className="text-accent">Your Kingdom?</span>
               </h2>
               <p className="text-xl md:text-2xl text-muted-foreground mb-16 leading-relaxed">
-                Join over 12,000 professional hosts already using HostDirect to
+                Join thousands of professional hosts already using VacayStack to
                 power their direct booking business and reclaim their
                 independence.
               </p>
